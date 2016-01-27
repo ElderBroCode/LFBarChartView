@@ -26,7 +26,7 @@
     self.dataArray = [[NSMutableArray alloc] init];
     
     [self makeRequest];
-    
+
     LFBarChartView *barChartView = [[LFBarChartView alloc] initWithFrame:CGRectMake(100, 300, 615, 160)];
     barChartView.dataArray = self.dataArray;
     barChartView.delegate = self;
