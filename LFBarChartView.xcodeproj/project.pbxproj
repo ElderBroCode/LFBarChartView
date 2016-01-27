@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		61758C691C586186009A78D1 /* UIButton+LF_.m in Sources */ = {isa = PBXBuildFile; fileRef = 61758C5C1C586186009A78D1 /* UIButton+LF_.m */; };
+		61758C6A1C586186009A78D1 /* UIColor+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 61758C5F1C586186009A78D1 /* UIColor+Extend.m */; };
+		61758C6B1C586186009A78D1 /* UILabel+LF.m in Sources */ = {isa = PBXBuildFile; fileRef = 61758C621C586186009A78D1 /* UILabel+LF.m */; };
+		61758C6C1C586186009A78D1 /* UIScrollView+LF.m in Sources */ = {isa = PBXBuildFile; fileRef = 61758C651C586186009A78D1 /* UIScrollView+LF.m */; };
+		61758C6D1C586186009A78D1 /* UIView+LF.m in Sources */ = {isa = PBXBuildFile; fileRef = 61758C681C586186009A78D1 /* UIView+LF.m */; };
 		62BFDF801A18474D007FFA03 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BFDF7F1A18474D007FFA03 /* main.m */; };
 		62BFDF831A18474D007FFA03 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BFDF821A18474D007FFA03 /* AppDelegate.m */; };
 		62BFDF861A18474D007FFA03 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BFDF851A18474D007FFA03 /* ViewController.m */; };
@@ -30,6 +35,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		61758C5B1C586186009A78D1 /* UIButton+LF_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LF_.h"; sourceTree = "<group>"; };
+		61758C5C1C586186009A78D1 /* UIButton+LF_.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LF_.m"; sourceTree = "<group>"; };
+		61758C5E1C586186009A78D1 /* UIColor+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extend.h"; sourceTree = "<group>"; };
+		61758C5F1C586186009A78D1 /* UIColor+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extend.m"; sourceTree = "<group>"; };
+		61758C611C586186009A78D1 /* UILabel+LF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LF.h"; sourceTree = "<group>"; };
+		61758C621C586186009A78D1 /* UILabel+LF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LF.m"; sourceTree = "<group>"; };
+		61758C641C586186009A78D1 /* UIScrollView+LF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+LF.h"; sourceTree = "<group>"; };
+		61758C651C586186009A78D1 /* UIScrollView+LF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+LF.m"; sourceTree = "<group>"; };
+		61758C671C586186009A78D1 /* UIView+LF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LF.h"; sourceTree = "<group>"; };
+		61758C681C586186009A78D1 /* UIView+LF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LF.m"; sourceTree = "<group>"; };
 		62BFDF7A1A18474D007FFA03 /* LFBarChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LFBarChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62BFDF7E1A18474D007FFA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62BFDF7F1A18474D007FFA03 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -69,6 +84,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		61758C591C586186009A78D1 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				61758C5A1C586186009A78D1 /* UIButton */,
+				61758C5B1C586186009A78D1 /* UIButton+LF_.h */,
+				61758C5C1C586186009A78D1 /* UIButton+LF_.m */,
+				61758C5D1C586186009A78D1 /* UIColor */,
+				61758C601C586186009A78D1 /* UILabel */,
+				61758C631C586186009A78D1 /* UIScrollView */,
+				61758C661C586186009A78D1 /* UIView */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		61758C5A1C586186009A78D1 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		61758C5D1C586186009A78D1 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				61758C5E1C586186009A78D1 /* UIColor+Extend.h */,
+				61758C5F1C586186009A78D1 /* UIColor+Extend.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		61758C601C586186009A78D1 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				61758C611C586186009A78D1 /* UILabel+LF.h */,
+				61758C621C586186009A78D1 /* UILabel+LF.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		61758C631C586186009A78D1 /* UIScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				61758C641C586186009A78D1 /* UIScrollView+LF.h */,
+				61758C651C586186009A78D1 /* UIScrollView+LF.m */,
+			);
+			path = UIScrollView;
+			sourceTree = "<group>";
+		};
+		61758C661C586186009A78D1 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				61758C671C586186009A78D1 /* UIView+LF.h */,
+				61758C681C586186009A78D1 /* UIView+LF.m */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
 		62BFDF711A18474D007FFA03 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +162,7 @@
 		62BFDF7C1A18474D007FFA03 /* LFBarChartView */ = {
 			isa = PBXGroup;
 			children = (
+				61758C591C586186009A78D1 /* Category */,
 				62BFDF811A18474D007FFA03 /* AppDelegate.h */,
 				62BFDF821A18474D007FFA03 /* AppDelegate.m */,
 				62BFDF841A18474D007FFA03 /* ViewController.h */,
@@ -235,11 +308,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				62BFDFAE1A18818D007FFA03 /* LFBarChartOne.m in Sources */,
+				61758C6B1C586186009A78D1 /* UILabel+LF.m in Sources */,
+				61758C6D1C586186009A78D1 /* UIView+LF.m in Sources */,
 				62BFDF861A18474D007FFA03 /* ViewController.m in Sources */,
 				62BFDF831A18474D007FFA03 /* AppDelegate.m in Sources */,
+				61758C6A1C586186009A78D1 /* UIColor+Extend.m in Sources */,
 				62BFDF801A18474D007FFA03 /* main.m in Sources */,
 				62BFDFA51A184887007FFA03 /* LFBarChartView.m in Sources */,
 				62BFDFB11A188215007FFA03 /* UIView+NJ.m in Sources */,
+				61758C691C586186009A78D1 /* UIButton+LF_.m in Sources */,
+				61758C6C1C586186009A78D1 /* UIScrollView+LF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +510,7 @@
 				62BFDF9F1A18474D007FFA03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62BFDFA01A18474D007FFA03 /* Build configuration list for PBXNativeTarget "LFBarChartViewTests" */ = {
 			isa = XCConfigurationList;
@@ -440,6 +519,7 @@
 				62BFDFA21A18474D007FFA03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
